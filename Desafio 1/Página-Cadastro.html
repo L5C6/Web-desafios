@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form action="Lista_de_alunos.html" method="post">
+                <fieldset>
+                    <legend>Registro de Alunos</legend>
+                    <label for="Nome">Nome do aluno:</label>
+                    <input type="text" name="Nome" id="Nome" required maxlength="40"><br>
+
+                    <label for="Data_Nascimento">Data de Nascimento</label>
+                    <input type="date" name="Data_Nascimento" id="Data_Nascimento" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required><br>
+
+                    <label for="turma">Turma:</label>
+                    <select name="turma" id="turma">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select><br>
+                    <label>Gênero:</label><br>
+                    <input type="radio" id="masculino" name="genero" value="Masculino" required>
+                    <label for="masculino">Masculino</label><br>
+                    
+                    <input type="radio" id="feminino" name="genero" value="Feminino" required>
+                    <label for="feminino">Feminino</label><br>
+
+                    <input type="radio" id="outro" name="genero" value="Outro" required>
+                    <label for="outro">Outro</label><br>
+
+                    <label>Preferências</label><br>
+                    <input type="checkbox" id="esportes" name="preferencias" value="Esportes">
+                    <label for="esportes">Esportes</label><br>
+
+                    <input type="checkbox" name="preferencias" id="artes" value="Artes">
+                    <label for="artes">Artes</label><br>
+
+                    <input type="checkbox" name="preferencias" id="musica" value="Musica">
+                    <label for="musica">Musica</label><br>
+
+                    <label for="Observações">Observações:</label><br>
+                    <textarea name="Observações" id="Observações"></textarea><br><br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
