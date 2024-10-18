@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo.css">
+    <title>Cadastro</title>
+</head>
+<body class="body-cadastro">
+    <div class="div-cadastro">
+        <form action="/listagem.html" method="post">
+            <legend class="titulo-cadastro">Registro de Usuário</legend>
+            <label for="username">Nome Completo:</label>
+            <input type="text" id="username" name="username" required maxlength="40"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required maxlength="11"><br>
+
+            <label for="date">Data de Nascimento</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required maxlength="20"><br>
+
+            <label for="confirm-password">Confirm a senha:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required maxlength="20"><br>
+
+            <button class="Enviar-cadastro" type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

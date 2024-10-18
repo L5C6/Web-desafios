@@ -1,0 +1,33 @@
+.body-cadastro {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+.titulo-cadastro {
+    font-size: 25px;
+}
+.div-cadastro {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Enviar-cadastro {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+#confirm-delet {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+.Delet-Button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.apagar-body {
+    background-color: gray;
+}
+.Titulo-Tabela{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
